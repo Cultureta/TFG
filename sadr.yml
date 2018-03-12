@@ -6,7 +6,7 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://discovery-server:1111/eureka/
+      defaultZone: http://localhost:1111/
 
 logging:
   file: logs/${spring.application.name}.log
